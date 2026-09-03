@@ -1,0 +1,15 @@
+# 临时文件
+temp/
+*.tmp
+*.swp
+.DS_Store
+
+# Python 字节码缓存(本地运行 pytest 产物,不进版本控制)
+__pycache__/
+*.pyc
+
+# 本地 MCP 配置(含 GitHub PAT 等密钥,严禁提交)
+.mcp.json
+
+# 本地可选忽略
+LICENSE
